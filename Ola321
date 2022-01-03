@@ -1,0 +1,94 @@
+<html>
+<body>
+<ol start="1" type="I">
+<ol>
+<li>Składnia języka HTML</li>
+<ol start="1" type="a" reversed>
+<li>Znaczniki i elementy</li>
+<li> Struktura dokumentu HTML </li>
+<li> Pierwsza strona WWW </li>
+</ol>
+<ol start="7">
+<li>Kaskadowe arkusze stylów </li>
+<ol start="1" type="a">
+<li> Struktura i wygląd dokumentu </li>
+<li> Dołączanie stylów do dokumentów </li>
+<ul type= "square">
+<li>Style zewnętrzne</li>
+<li> Style wewnętrzne</li>
+<li>Domyśłny język stylów </li>
+</ol>
+<li> Składnia kaskadowych arkuszy stylów</li>
+</ol>
+<li> Dodatki </li>
+<ol start="1" type="A">
+</ol>
+<li>Skorowidz</li>
+</ol>
+</body>
+</html>
+
+<body>
+<div>
+<table BORDER=1 style="width: 500px; height: 100px;">
+<caption> Tabela1</caption>
+<tr>
+<td colspan="8">...</td>
+</tr>
+<tr>
+<td colspan="4">.............................</td>
+<td colspan="4">.............................</td>
+</tr>
+<tr>
+<td colspan="2">...</td>
+<td colspan="4">...</td> 
+<td colspan="2">...</td>
+</tr>
+</table>
+<br>
+<table BORDER=1 style="width: 500px; height: 100px;">
+<caption> Tabela 2 </caption>
+<tr>
+<td rowspan="4">...</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td rowspan="2">...</td>
+</tr>
+<tr>
+<td>...</td>
+</tr>
+
+</table>
+<table BORDER=1 style="width: 500px; height: 100px;">
+<caption>Tabela 3</caption>
+			<tr>
+				<td rowspan="3" colspan="3">Komorka 1</td>
+				<td>Komorka 2</td>
+				<td>Komorka 3</td>
+				<td>Komorka 4</td>
+				<td rowspan="2">Komorka 5</td>
+			</tr>
+			<tr>
+				<td colspan="2">>Komorka 8</td>
+				<td>Komorka 9</td>
+			</tr>
+			<tr>
+				<td>Komorka 10</td>
+			</tr>
+			<tr>
+				<td>Komorka 6</td>
+				<td colspan="2">>Komorka 7</td>
+
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
